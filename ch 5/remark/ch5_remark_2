@@ -1,0 +1,80 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int a ,b ,c ,d;
+	clrscr();
+
+	printf("value of a is :");
+	scanf("%d",&a);
+	printf("value of b is :");
+	scanf("%d",&b);
+	printf("value of c is :");
+	scanf("%d",&c);
+	printf("value of d is :");
+	scanf("%d",&d);
+
+	if(a==b && b==c && c==d && d==a)
+	   {
+	      printf("all are same....");
+	   }
+	if (a==b)
+	   {
+	       printf("a and b are same..");
+	   }
+	else if (b==c)
+	   {
+	       printf("b and c are same...");
+	   }
+       else if (c==d)
+	   {
+	       printf("c and d are same");
+	   }
+       else if (d==a)
+	   {
+	       printf("d and a are same");
+	   }
+       else
+       {
+	  if(a>b)
+	      {
+		 if (a>c)
+		     {
+			if (a>d)
+			   {
+			       printf("a is max");
+			   }
+			   else
+			   {
+			       printf("d is max");
+			   }
+			if (c>d)
+			  {
+			       printf("c is max");
+			  }
+			else
+			  {
+			       printf("d is max");
+			  }
+		      }
+		 }
+       else
+       {
+	       if (b>d)
+		  {
+		     printf("b is max");
+		  }
+	       else
+		  {
+		     printf("d is max");
+		  }
+	      if (c>d)
+		  {
+		     printf("a is max");
+		  }
+
+	     }
+	 }
+      getch();
+
+}

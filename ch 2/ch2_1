@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+ int a=12;
+ int b=6;
+ int sum;
+ int sub;
+ int mul;
+ int div;
+ int mod;
+ clrscr();
+
+ sub=a-b;
+ sum=a+b;
+ mul=a*b;
+ div=a/b;
+ mod=a%b;
+
+ printf("\nthe sum of a and b is=%d",sum);
+ printf("\nthe sub of a and b is=%d",sub);
+ printf("\nthe mul of a and b is=%d",mul);
+ printf("\nthe div of a and b is=%d",div);
+ printf("\nthe mod of a and b is=%d",mod);
+
+ getch();
+ }
